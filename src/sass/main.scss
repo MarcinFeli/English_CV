@@ -1,0 +1,192 @@
+// *,
+// *::after,
+// *::before {
+// 	padding: 0;
+// 	margin: 0;
+// 	box-sizing: border-box;
+// }
+
+body {
+	background-color: #f5f7fa;
+	display: flex;
+	font-family: 'Montserrat', sans-serif;
+	height: 100%;
+}
+.wrapper {
+	display: flex;
+	position: relative;
+	width: 1200px;
+	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+.project {
+	.ol-list {
+		padding: 5px 0;
+		transition: color 0.3s;
+
+		p {
+			font-size: 15px;
+		}
+
+		a {
+			&:hover {
+				color: rgb(46, 190, 201);
+			}
+		}
+	}
+}
+
+aside {
+	display: block;
+	max-width: 400px;
+	background-color: #1e2939;
+	.sp-color {
+		color: white;
+	}
+	ul {
+		color: orange;
+	}
+	.aside-h3 {
+		color: #fff;
+	}
+
+	img {
+		margin-top: 20px;
+		height: 500px;
+		width: 100%;
+		background-color: #1e2939;
+		border-radius: 50%;
+	}
+
+	.contact {
+		margin-left: 20px;
+		margin-top: 20px;
+
+		span {
+			font-weight: bold;
+			color: white;
+		}
+
+		a {
+			text-decoration: none;
+			color: white;
+			transition: color 0.3s;
+
+			&:hover {
+				color: rgb(156, 145, 145);
+			}
+		}
+	}
+	.tech-skils,
+	.soft-skills {
+		font-size: 20px;
+		padding: 0 20px;
+		margin-left: 10px;
+		ul {
+			padding: 0;
+		}
+
+		li {
+			list-style: none;
+			margin-top: 10px;
+			margin-bottom: 5px;
+		}
+	}
+}
+
+.main {
+	max-width: 800px;
+	padding-top: 50px;
+	h2 {
+		color: black;
+	}
+}
+
+.about-me {
+	margin-left: 50px;
+	padding: 20px;
+
+	.name,
+	h3 {
+		color: black;
+	}
+	.name {
+		font-weight: bold;
+	}
+
+	.about {
+		color: gray;
+		width: 600px;
+		font-size: 20px;
+	}
+}
+
+.project {
+	margin-left: 50px;
+	padding: 0px 20px;
+	font-size: 20px;
+	a {
+		text-decoration: none;
+		color: rgb(85, 81, 81);
+	}
+	li {
+		color: black;
+		font-weight: 400;
+	}
+}
+
+.work-experience {
+	margin-left: 50px;
+	h2 {
+		margin-bottom: 30px;
+	}
+	padding: 20px 30px;
+	.work-box {
+		.left {
+			padding-left: 20px;
+		}
+		h3 {
+			color: black;
+		}
+		span {
+			color: rgb(255, 153, 0);
+		}
+
+		.work-time {
+			color: grey;
+		}
+		li {
+			color: gray;
+		}
+	}
+}
+
+.education {
+	margin-left: 50px;
+	padding: 0px 30px;
+	margin-bottom: 50px;
+	span {
+		color: rgb(255, 153, 0);
+	}
+	.management {
+		color: black;
+	}
+	.work-time {
+		color: gray;
+	}
+}
+
+.text-rodo {
+	height: 200px;
+	width: 100%;
+	
+
+	.text {
+		position: absolute;
+		margin: 10px;
+		text-align: center;
+		
+	}
+}
